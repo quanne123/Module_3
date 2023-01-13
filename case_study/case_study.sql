@@ -129,10 +129,10 @@ insert into loai_dich_vu(ma_loai_dich_vu,ten_loai_dich_vu) values (1,'Villa'),(2
 INSERT INTO tableName (ma_dich_vu, ten_dich_vu, dien_tich, chi_phi_thue, so_nguoi_toi_da, tieu_chuan_phong, mo_ta_tien_nghi_khac, dien_tich_ho_boi, so_tang, dich_vu_mien_phi_di_kem, ma_kieu_thue, ma_loai_dich_vu) VALUES
 	(1, 'Villa Beach Front', 25000, 1000000, 10,' vip',' Có hồ bơi', 500, 4, null, 3, 1),
 	(2, 'House Princess 01', 14000, 5000000, 7,' vip', 'Có thêm bếp nướng', null, 3, null, 2, 2),
-	(3, 'Room Twin 01', 5000, 1000000, 2, 'normal', 'Có tivi', null, null, '1 Xe máy', 1 'Xe đạp', 4, 3),
+	(3, 'Room Twin 01', 5000, 1000000, 2, 'normal', 'Có tivi', null, null, '1 Xe máy, 1 Xe đạp', 4, 3),
 	(4, 'Villa No Beach Front', 22000, 9000000, 8,' normal', 'Có hồ bơi', 300, 3, null, 3, 1),
 	(5, 'House Princess 02', 10000, 4000000, 5, 'normal', 'Có thêm bếp nướng', null, 2, null, 3, 2),
-	(6,' Room Twin 02, 3000', 900000, 2, 'normal', 'Có tivi', null, null, 1 'Xe máy', 4, 3);
+	(6,' Room Twin 02, 3000', 900000, 2, 'normal', 'Có tivi', null, null, '1 Xe máy', 4, 3);
 INSERT INTO ma_dich_vu_di_kem (ma_dich_vu_di_kem, ten_dich_vu_di_kem, gia, don_vi, trang_thai) VALUES
 	('1', 'Karaoke', '10000', 'giờ', 'tiện nghi, hiện tại'),
 	('2', 'Thuê xe máy', '10000', 'chiếc', 'hỏng 1 xe'),
@@ -162,6 +162,7 @@ INSERT INTO hop_dong_chi_tiet (ma_hop_dong_chi_tiet, so_luong, ma_hop_dong, ma_d
 	(6, 1, 1, 3),
 	(7, 2, 1, 2),
 	(8, 2, 12, 2);
+    
     
 														
 
