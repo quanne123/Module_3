@@ -64,10 +64,26 @@ from diem
 join sinh_vien on diem.ma_sinh_vien = sinh_vien.ma_sinh_vien
 join mon_hoc on diem.ma_mon_hoc = mon_hoc.ma_mon_hoc
 order by
-diem_thi desc, ten_sinh_vien
+diem_thi desc, ten_sinh_vien;
 
+-- Hiển thị tất cả các thông tin môn học (bảng subject) có credit lớn nhất.
+select * 
+from mon_hoc
+where tin_dung = (select max(tin_dung) from mon_hoc);
 
+-- Hiển thị các thông tin môn học có điểm thi lớn nhất.
+select * 
+from mon_hoc
+join diem on mon_hoc.ma_mon_hoc = diem.ma_mon_hoc
+where diem_thi = (select max(diem_thi) from diem);
 
+-- Hiển thị các thông tin sinh viên và điểm trung bình của mỗi sinh viên, xếp hạng theo thứ tự điểm giảm dần
+select ten_sinh_vien,avg(diem_thi)
+from sinh_vien 
+join 
+diem on sinh_vien.ma_sinh_vien = diem.ma_sinh_vien
+group by sinh_vien.ma_sinh_vien
+order by avg(diem_thi) desc;
 
 
 
