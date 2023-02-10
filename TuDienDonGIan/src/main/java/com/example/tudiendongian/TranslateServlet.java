@@ -1,27 +1,40 @@
 package com.example.tudiendongian;
 
 import java.io.*;
+import java.util.HashMap;
+import java.util.Map;
+import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
-    private String message;
+//@WebServlet(name = "TranslateServlet", value = "/translate")
+//public class TranslateServlet extends HttpServlet {
 
-    public void init() {
-        message = "Hello World!";
-    }
-
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.setContentType("text/html");
-
-        // Hello
-        PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
-        out.println("</body></html>");
-    }
-
-    public void destroy() {
-    }
-}
+//    @Override
+//    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//        Map<String, String> dictionary = new HashMap<>();
+//        dictionary.put("Hello", "Xin chào");
+//        dictionary.put("How", "Thế nào");
+//        dictionary.put("book", "Quyển vở");
+//        dictionary.put("computer", "Máy tính");
+//
+//        String search = req.getParameter("txtSearch");
+//        PrintWriter writer = resp.getWriter();
+//        writer.println("<html>");
+//
+//        String result = dictionary.get(search);
+//        if (result != null) {
+//            writer.println("Word: " + search);
+//            writer.println("Result: " + result);
+//        } else {
+//            writer.println("Not found");
+//        }
+//        writer.println("</html>");
+//    }
+//
+//
+//    @Override
+//    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//
+//    }
+//}
