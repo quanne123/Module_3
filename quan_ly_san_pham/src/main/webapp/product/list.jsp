@@ -13,7 +13,7 @@
 <body>
 <h1> Products</h1>
 <p>
-  <a href="product?action=create">Create new product</a>
+  <a href="/products?action=create">Create new product</a>
 </p>
 <table border="1">
     <tr>
@@ -30,8 +30,8 @@
             <td>${product.getPrice()}</td>
             <td>${product.getDescription()}</td>
             <td>${product.getProducer()}</td>
-            <td> <a href="/product?action=edit&id=${product.getId()}">edit</a> </td>
-            <td> <a href="/product?action=delete&id=${product.getId()}">delete</a> </td>
+            <td> <a href="/products?action=edit&id=${product.getId()}">edit</a> </td>
+            <td> <a href="/products?action=delete&id=${product.getId()}">delete</a> </td>
         </tr>
     </c:forEach>
 </table>

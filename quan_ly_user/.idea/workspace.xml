@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="532d6d59-967a-40d0-a272-e46b8e141c3a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Bài_Tâp/ss2_thiet_ke_va_tao_CSDL/bai_tap_3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Bài_Tâp/ss2_thiet_ke_va_tao_CSDL/bai_tap_3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bài_Tâp/ss3_Thao_tac_CSDL/quan_ly_sinh_vien.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Bài_Tâp/ss3_Thao_tac_CSDL/quan_ly_sinh_vien.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bài_Tâp/ss8_bootstrap/microsoft.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bài_Tâp/ss8_bootstrap/microsoft.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/src/main/java/com/example/calculatorsimple/CalculatorServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorSimple/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CurrencyConvert/src/main/webapp/ketqua.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CurrencyConvert/src/main/webapp/ketqua.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/java/com/example/danhsachkhachhang/CustomerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/java/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/ListCustomer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DanhSachKhachHang/src/main/webapp/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductDiscountCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/src/main/java/com/example/productdiscountcalculator/ProductDiscountCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/src/main/webapp/DiscountPrice.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo2/src/main/webapp/ketqua.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/src/main/webapp/ketqua.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/service/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/java/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/webapp/customer/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/webapp/customer/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/webapp/customer/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/webapp/customer/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/webapp/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/webapp/customer/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/webapp/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/webapp/customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/webapp/customer/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/webapp/customer/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/webapp/customer/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_khach_hang/src/main/webapp/customer/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_san_pham/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_san_pham/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_san_pham/src/main/java/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_san_pham/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_san_pham/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_san_pham/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_san_pham/src/main/webapp/product/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_san_pham/src/main/webapp/product/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_san_pham/src/main/webapp/product/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_san_pham/src/main/webapp/product/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quan_ly_san_pham/src/main/webapp/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_san_pham/src/main/webapp/product/list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2LiEfXMp2LvNFh2KzgXcxi4SexZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="532d6d59-967a-40d0-a272-e46b8e141c3a" name="Changes" comment="" />
+      <created>1676345611199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676345611199</updated>
+      <workItem from="1676345612777" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -10,7 +10,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet(name = "ProductServlet", value = "/product")
+@WebServlet(name = "ProductServlet", value = "/products")
 public class ProductServlet extends HttpServlet {
   private ProductServiceImpl productService = new ProductServiceImpl();
 
@@ -60,7 +60,7 @@ public class ProductServlet extends HttpServlet {
         List<Product> productList = productService.findAll();
         request.setAttribute("product",productList);
         try {
-            request.getRequestDispatcher("customer/list.jsp").forward(request,response);
+            request.getRequestDispatcher("/product/list.jsp").forward(request,response);
         } catch (ServletException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -87,7 +87,7 @@ public class ProductServlet extends HttpServlet {
 
         Product product = new Product(id,name,price,description,producer);
         this.productService.save(product);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/create.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("product/create.jsp");
         request.setAttribute("message","New customer was created");
         try {
             dispatcher.forward(request,response);
@@ -105,7 +105,7 @@ public class ProductServlet extends HttpServlet {
         }else {
             request.setAttribute("product",product);
             try {
-                request.getRequestDispatcher("product/edit0.jsp").forward(request,response);
+                request.getRequestDispatcher("product/edit.jsp").forward(request,response);
             } catch (ServletException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -131,7 +131,7 @@ public class ProductServlet extends HttpServlet {
             request.setAttribute("product",product);
             request.setAttribute("message","Product infomation was update");
             try {
-                request.getRequestDispatcher("product/edit.jsp").forward(request,response);
+                request.getRequestDispatcher("/product/edit.jsp").forward(request,response);
             } catch (ServletException e) {
                 e.printStackTrace();
             } catch (IOException e) {
