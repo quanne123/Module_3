@@ -31,6 +31,7 @@ public class HelloServlet extends HttpServlet {
             case "search":
                 searchUser(req, resp);
                 break;
+
             case "delete":
                 deleteUser(req, resp);
         }
@@ -44,7 +45,7 @@ public class HelloServlet extends HttpServlet {
         }
         switch (action) {
             case "create":
-                listUser(req, resp);
+                showNewForm(req,resp);
                 break;
             case "edit":
                 showEditForm(req, resp);
@@ -52,11 +53,15 @@ public class HelloServlet extends HttpServlet {
             case "delete":
                 deleteUser(req, resp);
                 break;
+            case "sort":
+                sortUser(req,resp);
+                break;
             default:
                 listUser(req, resp);
                 break;
         }
     }
+
 
     private void listUser(HttpServletRequest request, HttpServletResponse response) {
         List<User> userList = userService.selectAllUsers();
@@ -69,6 +74,7 @@ public class HelloServlet extends HttpServlet {
             e.printStackTrace();
         }
     }
+
 
     private void showNewForm(HttpServletRequest request, HttpServletResponse response) {
         try {
@@ -134,8 +140,8 @@ public class HelloServlet extends HttpServlet {
     }
 
     private void searchUser(HttpServletRequest request, HttpServletResponse response) {
-        String name = request.getParameter("name");
-        List<User> userList = userService.search(name);
+        String country = request.getParameter("country");
+        List<User> userList = userService.search(country);
         request.setAttribute("userList", userList);
         try {
             request.getRequestDispatcher("user/list.jsp").forward(request, response);
@@ -145,6 +151,18 @@ public class HelloServlet extends HttpServlet {
             throw new RuntimeException(e);
         }
 
+    }
+    private void sortUser(HttpServletRequest request,HttpServletResponse response){
+
+        List<User> userList = userService.sortByName();
+        request.setAttribute("userList",userList);
+        try {
+            request.getRequestDispatcher("user/list.jsp").forward(request,response);
+        } catch (ServletException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
 

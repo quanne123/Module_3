@@ -15,8 +15,11 @@
 <body>
 <center>
     <h1>User Management</h1>
+    <p>
+        <a href="/users?action=create">Create new User</a>
+    </p>
     <form class="d-flex" action="/users?action=search" method="post">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="name" name="name">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="country" name="country">
         <button class="btn btn-outline-success" type="submit">Search</button>
     </form>
     <h2>
@@ -30,6 +33,7 @@
         <td>Country</td>
         <td>Edit</td>
         <td>Delete</td>
+        <td>Sort</td>
     </tr>
     <c:forEach items="${userList}" var="user">
         <tr>
@@ -38,6 +42,7 @@
             <td>${user.getCountry()}</td>
             <td> <a href="/users?action=edit&id=${user.getId()}">Edit</a> </td>
             <td> <a href="/users?action=delete&id=${user.getId()}">Delete</a> </td>
+            <td> <a href="/users?action=sort" m>Sort</a> </td>
         </tr>
     </c:forEach>
 </table>

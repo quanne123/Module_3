@@ -36,7 +36,12 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public List<User> search(String name) {
-        return userRepository.search(name);
+    public List<User> search(String country) {
+        return userRepository.search(country);
+    }
+
+    @Override
+    public List<User> sortByName() {
+       return userRepository.sortByName();
     }
 }

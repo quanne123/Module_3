@@ -12,7 +12,7 @@
     <title>Create new User</title>
 </head>
 <body>
-<h1>Create new product</h1>
+<h1>Create new user</h1>
 <p>
     <c:if test='${requestScope["message"]!= null}'>
         <span class="message">${requestScope["message"]}</span>
@@ -21,7 +21,7 @@
 <p>
     <a href="/users">Back to User List</a>
 </p>
-<form method="post">
+<form  method="post">
     <fieldset>
         <legend>User Information</legend>
         <table>

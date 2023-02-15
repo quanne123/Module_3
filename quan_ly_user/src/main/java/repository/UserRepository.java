@@ -18,6 +18,8 @@ public class UserRepository  implements  IUserRepository{
 
     private static final String SEARCH_USERS_SQL = "select * from users where name like ?";
 
+    private static final String SORT_USERS_SQL = "select * from users order by name";
+
     public UserRepository(){
     }
 
@@ -112,12 +114,12 @@ public class UserRepository  implements  IUserRepository{
     }
 
     @Override
-    public List<User> search(String name) {
+    public List<User> search(String country) {
         Connection connection = BaseRepository.getConnection();
         List<User> userList = new ArrayList<>();
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(SEARCH_USERS_SQL);
-            preparedStatement.setString(1,"%" + name + "%");
+            preparedStatement.setString(1,"%" + country + "%");
             ResultSet set = preparedStatement.executeQuery();
             while (set.next()){
                 User user = new User();
@@ -132,4 +134,27 @@ public class UserRepository  implements  IUserRepository{
         }
         return userList;
     }
+
+    @Override
+    public List<User> sortByName() {
+        Connection connection = BaseRepository.getConnection();
+        List<User> userList = new ArrayList<>();
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement(SORT_USERS_SQL);
+            ResultSet set = preparedStatement.executeQuery();
+            while (set.next()) {
+                User user = new User();
+                user.setId(set.getInt("id"));
+                user.setName(set.getString("name"));
+                user.setEmail(set.getString("email"));
+                user.setCountry(set.getString("country"));
+                userList.add(user);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return userList;
+    }
+
+
 }
